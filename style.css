@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body{
+	background-color: aqua;
+	font-family: Verdana;
+}
+#container {
+    background-color: aqua;
+}
+#contenuto {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: flex-start;
+}
+#testa {
+	text-align: center;
+}
+#testa img{
+	width: 190px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contenuto h1{
+	text-align:center;
+}
+#menu {
+    background-color: red;
+    height: 700px;
+    width: 200px;
+    flex-shrink: 0;
+    margin-left:150px;
+
+}
+#menu a {
+	text-decoration: none;
+	padding: 2px;
+}
+#menu ul {
+	list-style: none;
+	padding: 2px;
+	line-height: 3;	
+}
+
+#articolo {
+    text-align: center;
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin-left: 0;
+    flex-shrink: 0;
+    #image{
+        width: 150px;
+        height: auto;
+    }
+}
+
+#destra {
+    background-color: green;
+    width: 200px;
+    height: 700px;
+    flex-shrink: 0;
+    margin-right: 150px;
+
+}
+#destra a{
+    text-decoration: none;
+}
+#destra ul{
+    line-height: 1.5;	
+}
+#footer{
+    flex-shrink:1;
+    background-color: grey;
+    height: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width:910px;
+    
+    #testo{
+        float:left;
+    }
+   
+    #table{
+        border: 1px dashed;
+        float:centre;
+        margin:auto;
+        width:30%;
+        
+    }
+}
